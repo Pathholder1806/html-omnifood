@@ -10,7 +10,7 @@
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #e67e22, #51cf66, #fcc419, #94d82d
 - Tints: #fdf2e9, #fae5d3
 - Shades: #cf711f
 
@@ -148,4 +148,8 @@ html {
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+}
+
+strong {
+    font-weight: 500;
 }
