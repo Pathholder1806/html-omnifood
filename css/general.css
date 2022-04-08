@@ -129,7 +129,6 @@ html {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     column-gap: 6.4rem;
     row-gap: 9.6rem;
 
