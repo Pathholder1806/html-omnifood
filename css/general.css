@@ -171,6 +171,10 @@ html {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
 .grid--center-v {
     align-items: center;
 }
