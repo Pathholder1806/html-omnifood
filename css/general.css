@@ -189,6 +189,26 @@ GENERAL/HELPER CLASSES
     background-color: #ffd43b;
 }
 
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+
+    font-size: 1.8rem;
+}
+
+.list-icon {
+    font-size: 3rem;
+    color: #e67e22;
+}
+
 .margin-bottom-md {
     margin-bottom: 4.8rem !important;
 }
