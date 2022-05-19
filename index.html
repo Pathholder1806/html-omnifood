@@ -886,15 +886,11 @@
                 const header = document.querySelector(".header");
                 if (header.classList.contains("nav-open")) {
                     header.classList.remove("nav-open");
-                    document.getElementsByTagName("html")[0].style.overflowY =
-                        "visible";
-                    document.getElementsByTagName("body")[0].style.overflowY =
-                        "visible";
+                    document.getElementsByTagName("html")[0].style.overflow =
+                        "scroll";
                 } else {
                     header.classList.add("nav-open");
-                    document.getElementsByTagName("html")[0].style.overflowY =
-                        "hidden";
-                    document.getElementsByTagName("body")[0].style.overflowY =
+                    document.getElementsByTagName("html")[0].style.overflow =
                         "hidden";
                 }
             }
