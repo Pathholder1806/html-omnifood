@@ -731,11 +731,17 @@
                                 or pause anytime. And the first meal is on us!
                             </p>
 
-                            <form action="#" class="cta-form">
+                            <form
+                                action="#"
+                                class="cta-form"
+                                name="sign-up"
+                                netlify
+                            >
                                 <div>
                                     <label for="name">Full Name</label>
                                     <input
                                         id="name"
+                                        name="name"
                                         type="text"
                                         placeholder="John Smith"
                                         required
@@ -747,6 +753,7 @@
                                     <label for="email">Email</label>
                                     <input
                                         id="email"
+                                        name="email"
                                         type="email"
                                         placeholder="abc@example.com"
                                         required
@@ -755,7 +762,9 @@
                                 </div>
 
                                 <div>
-                                    <label for="select-where"
+                                    <label
+                                        for="select-where"
+                                        name="select-where"
                                         >Where did you hear about us?</label
                                     >
                                     <select id="select-where" required>
